@@ -16,7 +16,7 @@ function LandingPage(props)
     const [amenity,setAmenity]=useState('');
     const [filtobj,setfiltObject]=useState({});
     const [budget,setbudget]=useState('');
-
+    const [filterimage,setFilterImage]=useState(false);
     useEffect(()=>{
         console.log("*********************")
         console.log(props);
@@ -126,9 +126,11 @@ useEffect(()=>{
         if(id==''||id=='none')
         {
             document.getElementById('filterbig').style.display='grid';
+            setFilterImage(true);
         }else
         {
-            document.getElementById('filterbig').style.display='none'
+            document.getElementById('filterbig').style.display='none';
+            setFilterImage(false);
         }
         
     }
@@ -191,7 +193,8 @@ useEffect(()=>{
                 <div className="container">
                     <div className="box">
                     <div className="filtericon" onClick={()=>{setFilterforMobile()}}>
-                        <img style={{display:'inline-block'}} src="/filter.svg"></img>
+                        <img style={{display:(filterimage)?'none':'inline-block',height:'30px'}} src="/filter.svg"></img>
+                        <img style={{display:(filterimage)?'inline-block':'none',height:'30px'}} src="/filters.svg"></img>
                     </div>
                     <div style={{display:(hotels.length==0)?'block':'none',color:'#ccc',textAlign:'center',fontSize:'20px'}}>No results found</div>
                     {hotels.map((data,i)=>{
@@ -239,7 +242,7 @@ useEffect(()=>{
                                             })}
                                         </div>
                                         <div className="chevron">
-                                                <img id={i} style={{height:'10px'}} src="/chevrondown.svg" onClick={(e)=>settingChevronValue(e)}></img>
+                                                <img id={i} style={{height:'10px',cursor:'pointer'}} src="/chevrondown.svg" onClick={(e)=>settingChevronValue(e)}></img>
                                         </div>
                                     </div>
                                     <div className="hote_price">

@@ -6,3 +6,8 @@
 5)after downloading all npm dependencies succesfully
 5)now run the command 'npm run start' 
 5)after running this command it will open the application in localhost:3000 port
+
+
+
+
+check here foe git code 'https://github.com/raviteja19/Trivago' made it as private repository.PLease mail me if you need code i will make it as public
