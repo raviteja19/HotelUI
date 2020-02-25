@@ -1,0 +1,1 @@
+run the command  'json-server -p 3001 db.json' in command prompt

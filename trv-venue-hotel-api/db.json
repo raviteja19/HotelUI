@@ -1,0 +1,160 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Devloper friendly hotel",
+      "description": "in der Nähe von Düsseldorf Zoo",
+      "distance_to_venue": 800,
+      "rating": 4.5,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Parking",
+        "Kitchen"
+      ],
+      "images": [
+        "hotel1"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "friendly hotel",
+      "description": "in der Nähe von Düsseldorf Zoo",
+      "distance_to_venue": 800,
+      "rating": 3.5,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Parking",
+        "Kitchen"
+      ],
+      "images": [
+        "hotel2"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "friendly hotel welcome",
+      "description": "in der Nähe von Schillerplatz",
+      "distance_to_venue": 300,
+      "rating": 2.5,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Kitchen",
+        "Lunch"
+      ],
+      "images": [
+        "hotel3"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "trivago hotel welcome",
+      "description": "in der Nähe von Schillerplatz",
+      "distance_to_venue": 500,
+      "rating": 3,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Parking",
+        "Lunch"
+      ],
+      "images": [
+        "hotel4"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "trivago resort",
+      "description": "in der Nähe von Hansaplatz",
+      "distance_to_venue": 600,
+      "rating": 4,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Parking",
+        "Lunch",
+        "Kitchen"
+      ],
+      "images": [
+        "hotel5"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "friendly hotel welcome",
+      "description": "in der Nähe von Schillerplatz",
+      "distance_to_venue": 700,
+      "rating": 5,
+      "price_category": "medium",
+      "amenities": [
+        "Wifi",
+        "Parking",
+        "Lunch"
+      ],
+      "images": [
+        "hotel6"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "friendly hotel welcome",
+      "description": "in der Nähe von Engerstraße",
+      "distance_to_venue": 900,
+      "rating": 2.5,
+      "price_category": "low",
+      "amenities": [
+        "Wifi"
+      ],
+      "images": [
+        "hotel1"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "hotel 5",
+      "description": "descr",
+      "distance_to_venue": 600,
+      "rating": 4,
+      "price_category": "",
+      "amenities": [
+        "Wifi",
+        "Parking"
+      ],
+      "images": [
+        "hotel2"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Delux suite",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "max_occupancy": 4,
+      "price_in_usd": 78.9
+    },
+    {
+      "id": 1,
+      "name": "Super suite",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "max_occupancy": 10,
+      "price_in_usd": 489.9
+    },
+    {
+      "id": 1,
+      "name": "Single bed room",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "max_occupancy": 1,
+      "price_in_usd": 78.9
+    },
+    {
+      "id": 1,
+      "name": "Double bed room",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+      "max_occupancy": 2,
+      "price_in_usd": 40.9
+    }
+  ]
+}
